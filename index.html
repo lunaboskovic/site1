@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                
+                <li><a href="#">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <h1>Welcome to our Travel Website</h1>
+            <p id="pasus1"></p>
+            <br>
+            <p id="pasus2"></p>
+        </section>
+        <section>
+            
+            <div class="destinacija">
+            <h2>Popular Destinations</h2>
+        </div>
+            <div class="destination">
+                <img src="dest-1.jpg" alt="Destination 1" id="slika">
+                <h3>Destination </h3>
+                <p id="funkcija1"></p>
+                <br>
+                <button onclick="bookNow()" id="btns">Book Now</button>
+            </div>
+            <div class="destination">
+                <img src="dest-2.jpg" alt="Destination 2" id="slika">
+                <h3>Destination </h3>
+                <p id="funkcija2"></p>
+                <br>
+                <button onclick="bookNow()" id="btns">Book Now</button>
+            </div>
+        </section>
+    </main>
+
+    <section>
+        
+        <h2> Booking </h2>
+        <form id="kontakt">
+            
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="marko"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="markovic"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+    </section>
+
+    <footer>
+        <p id="pasus3"></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
