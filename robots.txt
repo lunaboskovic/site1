@@ -1,0 +1,3 @@
+user-agent: *
+
+sitemap: https://lunaboskovic.github.io/site1/sitemap.xml
