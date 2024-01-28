@@ -51,11 +51,11 @@ document.getElementById("funkcija2").innerHTML = myFunction(2, 1);
 
 
  //preuzimanje podataka iz forme
-//  let fname = document.getElementById('fname').value;
-//    let lname = document.getElementById('lname').value;
+let fname = document.getElementById('fname').value;
+let lname = document.getElementById('lname').value;
    
-//    console.log('first name: ' + fname);
-//    console.log('last name: ' + lname); 
+console.log('first name: ' + fname);
+console.log('last name: ' + lname); 
 
 
  
